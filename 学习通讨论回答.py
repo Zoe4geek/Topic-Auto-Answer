@@ -63,7 +63,7 @@ def get_courses_list(fsession):
 
 if __name__ == "__main__":
     users_info_lists = []
-    user_info_csv = pandas.read_csv('topic_user_test.csv', encoding='utf-8', converters={'user': str})
+    user_info_csv = pandas.read_csv('topic_user.csv', encoding='utf-8', converters={'user': str})
 
     for i in range(len(user_info_csv)):
         password_str = user_info_csv['password'][i]
