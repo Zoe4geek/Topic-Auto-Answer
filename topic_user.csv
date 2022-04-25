@@ -1,2 +1,2 @@
-user,password,name
-10000000000,zhangsan,张三
+user,password,email,name
+10000000000,zhangsan,zhangsan@123.com,张三
